@@ -1,0 +1,41 @@
+baseURL = 'https://amksde.github.io'
+languageCode = 'en-us'
+title = 'Aman Kumar'
+
+[params]
+  description = "A minimalist personal website"
+  author = "Aman Kumar"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "Recommendations"
+    url = "/recommendations/"
+    weight = 3
+  [[menu.main]]
+    name = "Bookshelf"
+    url = "/bookshelf/"
+    weight = 4
+  [[menu.main]]
+    name = "Dotfiles"
+    url = "/dotfiles/"
+    weight = 5
+  [[menu.main]]
+    name = "Playlist"
+    url = "/playlist/"
+    weight = 6
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 7
+  [[menu.main]]
+    name = "Test"
+    url = "/test/"
+    weight = 8

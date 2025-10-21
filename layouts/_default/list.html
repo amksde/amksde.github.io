@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h2>{{print "> "}}{{ .Title }}</h2>
+
+{{ .Content }}
+
+{{ if .Pages }}
+<div class="list">
+    {{ range .Pages }}
+    <div class="list-item">
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ if .Date }}
+        <span class="date"> {{print "Updated "}}{{.Date.Format "2006-01-02" }}</span>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
