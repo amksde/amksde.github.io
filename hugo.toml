@@ -35,7 +35,3 @@ title = 'Aman Kumar'
     name = "Projects"
     url = "/projects/"
     weight = 7
-  [[menu.main]]
-    name = "Test"
-    url = "/test/"
-    weight = 8
