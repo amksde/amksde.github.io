@@ -1,16 +1,32 @@
 {{ define "main" }}
-<h2>{{print "> "}}{{ .Title }}</h2>
 
+<article>
+    <h2>{{ print "> " .Title }}</h2>
+    {{ if .Lastmod }}
+        <span class="date">Updated: {{ .Lastmod.Format "2006-01-02" }}</span>
+        <span> | </span>
+    {{ end }}
+    {{ if .Date }}
+        <span class="date">Created: {{ .Date.Format "2006-01-02" }}</span>
+    {{ end }} 
+</article>
+
+<br>
 {{ .Content }}
+<br>
 
 {{ if .Pages }}
 <div class="list">
     {{ range .Pages }}
     <div class="list-item">
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ if .Date }}
-        <span class="date"> {{print "Updated "}}{{.Date.Format "2006-01-02" }}</span>
+        {{ if .Lastmod }}
+        <span class="date">Updated: {{ .Lastmod.Format "2006-01-02" }}</span>
+        <span> | </span>
         {{ end }}
+        {{ if .Date }}
+        <span class="date">Created: {{ .Date.Format "2006-01-02" }}</span>
+        {{ end }} 
     </div>
     {{ end }}
 </div>
