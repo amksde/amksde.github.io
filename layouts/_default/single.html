@@ -2,11 +2,12 @@
 <article>
     <h2>{{ print "> " .Title }}</h2>
     {{ if .Lastmod }}
-    <p class="date">Updated: {{ .Lastmod.Format "2006-01-02" }}</p>
+        <span class="date">Updated: {{ .Lastmod.Format "2006-01-02" }}</span>
+        <span> | </span>
     {{ end }}
     {{ if .Date }}
-    <p class="date">Created: {{ .Date.Format "2006-01-02" }}</p>
-    {{ end }}
+        <span class="date">Created: {{ .Date.Format "2006-01-02" }}</span>
+    {{ end }} 
     {{ .Content }}
 </article>
 {{ end }}

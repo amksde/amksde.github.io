@@ -2,6 +2,7 @@
 title: "Anime + Manga Recommendations"
 draft: false
 date : '2025-10-21T00:00:00+05:30'
+lastmod : '2025-10-23T00:00:00+05:30'
 ---
 
 #### Tier-1 [Must Watch / Read]
@@ -26,7 +27,11 @@ date : '2025-10-21T00:00:00+05:30'
 
 #### Tier-3 [Worth The Time Spent]
 - [Kimetsu No Yaiba (Demon Slayer)](https://myanimelist.net/anime/37999/Kimetsu_no_Yaiba)
-- 
+- [Sen to Chihiro no Kamikakushi (Spirited Away)](https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi)
+- [Tada-kun wa Koi wo Shinai (Tada Never Falls in Love)](https://myanimelist.net/anime/36470/Tada-kun_wa_Koi_wo_Shinai)
+
+#### Avoid At All Costs Even Though It May Seem Good At First
+- [Kanojo, Okarishimasu (Rent-A-Girlfriend)](https://myanimelist.net/anime/40839/Kanojo_Okarishimasu)
 
 #### Yet To Watch & Rate
 [Access watchlist here!](https://myanimelist.net/animelist/amksde?status=5)
