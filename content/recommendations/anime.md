@@ -14,7 +14,7 @@ lastmod : '2025-10-23T00:00:00+05:30'
 - [Tonari no Seki-kun (My Neighbour Seki: The Master of Killing Time)](https://myanimelist.net/anime/18138/Tonari_no_Seki-kun)
 - [Wotaku ni Koi wa Muzukashii (Wotakoi: Love is Hard for Otaku)](https://myanimelist.net/anime/35967/Wotaku_ni_Koi_wa_Muzukashii)
 - [Kochira Katsushikaku Kameari Kouenmae Hashutsujo (KochiKame)](https://myanimelist.net/anime/3544/Kochira_Katsushikaku_Kameari_Kouenmae_Hashutsujo)
-
+- [Mayonaka Heart Tune (Tune In to the Midnight Heart)](https://myanimelist.net/manga/162964/Mayonaka_Heart_Tune)
 
 #### Tier-2 [Good To Watch / Read]
 - [Senpai ga Uzai Kouhai no Hanashi (My Senpai is Annoying)](https://myanimelist.net/anime/42350/Senpai_ga_Uzai_Kouhai_no_Hanashi)
@@ -23,6 +23,8 @@ lastmod : '2025-10-23T00:00:00+05:30'
 - [Yahari Ore no Seishun Love Comedy wa Machigatteiru (My Teen Romantic Comedy SNAFU)](https://myanimelist.net/anime/14812/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru)
 - [Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai (Rascal Does Not Dream of Bunny Girl Senpai)](https://myanimelist.net/anime/37449/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai)
 - [Gimai Seikatsu](https://myanimelist.net/anime/52480/Gimai_Seikatsu)
+- [One Punch Man](https://myanimelist.net/anime/30276/One_Punch_Man)
+- [Spy X Family](https://myanimelist.net/anime/50265/Spy_x_Family)
 
 
 #### Tier-3 [Worth The Time Spent]

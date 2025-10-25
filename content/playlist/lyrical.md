@@ -446,6 +446,7 @@ lastmod: "2025-10-22T00:00:00+05:30"
 - [Nahin Nahin Koi Tumsa Haseen (From ""Swarag Narak"")](https://www.youtube.com/watch?v=jjeLBBpEOIk)
 - [Naina Barse Rimjhim Rimjhim](https://www.youtube.com/watch?v=gkemjqC43G0)
 - [Nainon Mein Badra Chhaye](https://www.youtube.com/watch?v=ZITXJG5Gqq0)
+- [Nazar Se Phool Chunti Hai Magar](https://music.youtube.com/watch?v=jDlOSa_J95M)
 - [Neela Aasman So Gaya](https://www.youtube.com/watch?v=BzxcAY4c_R4)
 - [Neela Aasman So Gaya](https://www.youtube.com/watch?v=lE21VQQ0E64)
 - [Neele Gagan Ke Tale](https://www.youtube.com/watch?v=YNB4p4xnkxE)
