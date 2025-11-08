@@ -9,3 +9,4 @@ date : '2025-10-23T00:00:00+05:30'
 3. [Charlie And Harper - Twin Mixup](https://youtube.com/shorts/nxRxyBk1w6o)
 4. [Coca-Cola: Happiness starts with a smile](https://youtu.be/1veWbLpGa78)
 5. [Baby Wants To Be Thrown Into The River](https://youtube.com/shorts/w4vwYFK24IQ)
+6. [Maharashtrachi HasyaJatra Legendary Clip](https://www.instagram.com/reel/CzH85qfrdhz/)
