@@ -6,6 +6,16 @@ title = 'Aman Kumar'
   description = "A minimalist personal website"
   author = "Aman Kumar"
 
+# Enable math rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$'], ['\\[', '\\]']]
+          inline = [['$', '$'], ['\\(', '\\)']]
+
 [menu]
   [[menu.main]]
     name = "Home"

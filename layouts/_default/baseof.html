@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
     <style>
         * {
             margin: 0;
@@ -60,7 +61,26 @@
         strong, b {
             font-weight: bold;
         }
-        
+
+        .breadcrumbs {
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .breadcrumbs a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumbs span {
+            margin: 0 0.5rem;
+        }
+
         main {
             margin-bottom: 3rem;
         }
@@ -143,7 +163,26 @@
             </ul>
         </nav>
     </header>
-    
+
+    {{ if not .IsHome }}
+    <nav class="breadcrumbs">
+        <a href="/">Home</a>
+        {{ $sections := split .RelPermalink "/" }}
+        {{ $current := "" }}
+        {{ range $index, $section := $sections }}
+            {{ if and $section (ne $section "") }}
+                {{ $current = printf "%s/%s" $current $section }}
+                <span>/</span>
+                {{ if eq $index (sub (len $sections) 2) }}
+                <span>{{ $.Title }}</span>
+                {{ else }}
+                    <a href="{{ $current }}/">{{ $section | humanize | title }}</a>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </nav>
+    {{ end }}
+
     <main>
         {{ block "main" . }}{{ end }}
     </main>
