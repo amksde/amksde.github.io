@@ -1,16 +1,16 @@
 ---
-title : "Advanced Data-Structures & Algorithms"
+title: "Advanced Data Structures & Algorithms"
 ---
 
-### Red-Black, AVL Trees
-- used to maintain in memory sorted order in $O log(n)$
-- used as memtables in log-structured databases
+These are especially useful for understanding databases, search engines, caches,
+and high-scale systems.
 
-### B-Trees
-- Fixed size blocks (e.g. 4KBs)
-- A tree with n keys will have depth of O(log n)
-- Most DBs can fit into a B-Tree that is 3 or 4 levels deep (a 4 level tree of 4KB pages with branching factor of 500 can store up-to 256TB data)
-- B+ Tree optimizes the key storage
-
-### Fractal Trees
-- B-Tree variant that use some log-structured ideas to reduce disk seeks
+- Balanced search trees: AVL and red-black trees maintain sorted in-memory data in `O(log n)` operations.
+- B-trees and B+ trees: page-oriented, high-fan-out indexes that minimize storage reads; common in relational databases.
+- LSM trees: writes first land in a memtable and immutable sorted files are compacted later; understand write amplification and compaction.
+- Tries, radix trees, suffix structures, and finite-state machines for prefixes, routing, dictionaries, and text.
+- Bloom/cuckoo filters and HyperLogLog: probabilistic structures that trade a bounded error for large memory savings.
+- Skip lists and concurrent ordered maps.
+- Consistent/rendezvous hashing, Merkle trees, vector clocks, and CRDT concepts for distributed data.
+- Interval trees, segment/Fenwick trees, R-trees, and spatial indexes for range and geo queries.
+- External-memory and streaming algorithms when data exceeds RAM.
