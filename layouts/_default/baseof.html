@@ -14,7 +14,7 @@
         }
         
         body {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: "DejaVu Serif", "Bitstream Vera Serif", Georgia, serif;
             max-width: 1000px;
             margin: 0 auto;
             padding: 2rem 1rem;
@@ -50,12 +50,12 @@
         }
         
         nav a {
-            color: #333;
+            color: #437291;
             text-decoration: none;
         }
         
         nav a:hover {
-            text-decoration: underline;
+            color: #e76f00;
         }
         
         strong, b {
@@ -69,12 +69,12 @@
         }
 
         .breadcrumbs a {
-            color: #666;
+            color: #437291;
             text-decoration: none;
         }
 
         .breadcrumbs a:hover {
-            text-decoration: underline;
+            color: #e76f00;
         }
 
         .breadcrumbs span {
@@ -97,7 +97,16 @@
         }
         
         a {
-            color: #333;
+            color: #437291;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #666;
+        }
+
+        a:hover {
+            color: #e76f00;
         }
         
         ul, ol {
@@ -110,15 +119,42 @@
         }
         
         code {
+            font-family: "DejaVu Sans", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
             background: #f4f4f4;
             padding: 0.2rem 0.4rem;
         }
         
         pre {
+            font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, "Courier New", monospace;
             background: #f4f4f4;
+            position: relative;
             padding: 1rem;
             overflow-x: auto;
             margin-bottom: 1rem;
+        }
+
+        pre code {
+            font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, "Courier New", monospace;
+        }
+
+        .copy-code {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            padding: 0.3rem 0.6rem;
+            border: 1px solid #437291;
+            border-radius: 3px;
+            background: #fff;
+            color: #437291;
+            cursor: pointer;
+            font: inherit;
+            font-size: 0.8rem;
+        }
+
+        .copy-code:hover,
+        .copy-code:focus-visible {
+            background: #437291;
+            color: #fff;
         }
         
         .list-item {
@@ -190,5 +226,32 @@
     <footer>
         <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
     </footer>
+    <script>
+        document.querySelectorAll('pre').forEach((pre) => {
+            const code = pre.querySelector('code');
+            if (!code) return;
+
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'copy-code';
+            button.textContent = 'Copy';
+            button.setAttribute('aria-label', 'Copy code block');
+
+            button.addEventListener('click', async () => {
+                try {
+                    await navigator.clipboard.writeText(code.textContent);
+                    button.textContent = 'Copied!';
+                } catch {
+                    button.textContent = 'Copy failed';
+                }
+
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                }, 2000);
+            });
+
+            pre.appendChild(button);
+        });
+    </script>
 </body>
 </html>
