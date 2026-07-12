@@ -26,12 +26,12 @@ title = 'Aman Kumar'
     url = "/blog/"
     weight = 2
   [[menu.main]]
-    name = "Recommendations"
-    url = "/recommendations/"
+    name = "Leisure"
+    url = "/leisure/"
     weight = 3
   [[menu.main]]
-    name = "Bookshelf"
-    url = "/bookshelf/"
+    name = "Learning"
+    url = "/learning/"
     weight = 4
   [[menu.main]]
     name = "Dotfiles"
