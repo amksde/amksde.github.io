@@ -15,6 +15,7 @@ lastmod : '2025-10-23T00:00:00+05:30'
 - [Wotaku ni Koi wa Muzukashii (Wotakoi: Love is Hard for Otaku)](https://myanimelist.net/anime/35967/Wotaku_ni_Koi_wa_Muzukashii)
 - [Kochira Katsushikaku Kameari Kouenmae Hashutsujo (KochiKame)](https://myanimelist.net/anime/3544/Kochira_Katsushikaku_Kameari_Kouenmae_Hashutsujo)
 - [Mayonaka Heart Tune (Tune In to the Midnight Heart)](https://myanimelist.net/manga/162964/Mayonaka_Heart_Tune)
+- [Ichigo Mashamiro](https://myanimelist.net/anime/488/Ichigo_Mashimaro)
 
 #### Tier-2 [Good To Watch / Read]
 - [Senpai ga Uzai Kouhai no Hanashi (My Senpai is Annoying)](https://myanimelist.net/anime/42350/Senpai_ga_Uzai_Kouhai_no_Hanashi)
