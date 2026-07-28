@@ -26,3 +26,13 @@ Follow a request from the browser or client to a service and back.
 - ECN [[Wiki](https://en.wikipedia.org/wiki/Explicit_Congestion_Notification)]
 - TCP Blackhole [[Wiki](https://en.wikipedia.org/wiki/Black_hole_(networking))]
 - Traceroute [[Wiki](https://en.wikipedia.org/wiki/Traceroute)]
+- PING
+
+### UPD
+- UDP [[Wiki](https://en.wikipedia.org/wiki/User_Datagram_Protocol)] [[CF]
+- TCP Meltdown [[Article](https://openvpn.net/as-docs/faq-tcp-meltdown.html)]
+- DNS Poisoning [[CF](https://www.cloudflare.com/learning/dns/dns-cache-poisoning/)]
+- DNS Flooding [[CF](https://www.cloudflare.com/learning/ddos/dns-flood-ddos-attack/)]
+- `nc` Tool [[Article](https://www.kali.org/tools/netcat/)]
+
+### TCP
