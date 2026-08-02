@@ -36,3 +36,48 @@ Follow a request from the browser or client to a service and back.
 - `nc` Tool [[Article](https://www.kali.org/tools/netcat/)]
 
 ### TCP
+- TCP [[Wiki](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)] [[CF](https://developers.cloudflare.com/fundamentals/reference/tcp-connections/)]
+- Ports [[Wiki](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)]
+- HTTP [[Wiki](https://en.wikipedia.org/wiki/HTTP)]
+- File Descriptors [[Wiki](https://en.wikipedia.org/wiki/File_descriptor)] [[Article](https://www.linkedin.com/pulse/linux-sockets-file-descriptors-understanding-leaks-breaking-dhyani-mfwkc/)]
+- SYN Flood Attack [[CF](https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/)]
+- TCP Handshake [[MDN](https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/)]
+- TCP Sequences [See Wiki Again]
+- Multipath TCP [[Wiki](https://en.wikipedia.org/wiki/Multipath_TCP)]
+- Millions of TCP Connections [[Whatsapp Blog](https://blog.whatsapp.com/1-million-is-so-2011)]
+
+## TLS
+- Layer 5? Session layer
+- TLS Handshake
+- HTTPS
+- Symmetric Key Algorithms For Encryption
+- Asymeetric ones for key exchange
+- PKI (Public Key Infrastructure)
+- RSA For Forward Secrecy
+- Epehmeral Keys (Diffie Helman)
+- TLS 1.2 (2 roundtrips) vs 1.3 (one / zero roundtrips)
+- Key size
+- key generation
+- digital signature algos
+- client side certs
+
+## HTTP
+- HTTP 1.0 / 1.1 / 2 / 3
+- HTTP client & server
+- Hosting multiple domains on same IP - host header differentiates - Multi Homed Websites
+- HTTP vs HTTPS
+- Transfer Encoding - Chunked
+- HTTP Smuggling
+- Pipelining in HTTP 1.1
+- Protocol Ossification
+- SPDY in HTTP2
+- NPN / ALPN
+- HTTP 3 / HTTP over QUIC
+
+## HTTPS, TLS, Keys, & Certificates
+- SNI (Server Name Indication)
+- ECH (Encrypted Client Hello)
+- Encrypting With Private Key And Public Key
+- Certificates, x509, ROOT certificate, chains
+- Heartbleed Attack
+- openssl
