@@ -81,3 +81,13 @@ Follow a request from the browser or client to a service and back.
 - Certificates, x509, ROOT certificate, chains
 - Heartbleed Attack
 - openssl
+
+## Web-Sockets
+- ws handshake
+- Need for HTTP/1.1 for websockets
+- ws:// or wss://
+- upgrade header
+- why proxying with WS is hard
+- ping pong in websockets
+- server sent events vs ws
+- 
