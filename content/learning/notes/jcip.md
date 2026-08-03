@@ -79,3 +79,22 @@ date: "2006-10-21"
   - When a barrier is passed, all threads are released, and the barrier is reset so that it can be used again
   - `BrokenBarrierOperation`
   - Implementations - `CyclicBarrier`, `Exchanger`   
+
+
+<h1><mark style="background-color: yellow; color: black;">Chapter 6 : Task Executions</mark></h1>
+- Thread lifecycle is not cheap to manage
+- When there are more runnable threads than processors, there are idle threads which eat up memory
+- `XSS` JVM flag changes the thread stack size
+
+## Executor Framework
+- The primary abstraction for task execution in Java is not Thread, but rather the `Executor` framework
+- Decouples task submission from task execution
+- The Executor implementations also provide lifecycle support and hooks for adding statistics gathering, application management, and monitoring.
+- Using an Executor is usually the easiest path to implementing a producer-consumer design in your application.
+- Execution policies allow you to set the queues and rejection policies among other things for the executor
+- Thread pools
+  - `newFixedThreadPool` - increase size then constant
+  - `newCachedThreadPool` - no size, can increase or decrease depending on the load
+  - `newSingleThreadExecutor` - just a single thread with a backing LIFO queue
+  - `newScheduledThreadPool` - supports delayed task execution
+- Executor lifecycle   
