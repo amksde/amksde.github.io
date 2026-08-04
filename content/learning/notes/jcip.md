@@ -81,7 +81,7 @@ date: "2006-10-21"
   - Implementations - `CyclicBarrier`, `Exchanger`   
 
 
-<h1><mark style="background-color: yellow; color: black;">Chapter 6 : Task Executions</mark></h1>
+==Chapter 6 : Task Executions==
 - Thread lifecycle is not cheap to manage
 - When there are more runnable threads than processors, there are idle threads which eat up memory
 - `XSS` JVM flag changes the thread stack size
