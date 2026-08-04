@@ -97,4 +97,14 @@ date: "2006-10-21"
   - `newCachedThreadPool` - no size, can increase or decrease depending on the load
   - `newSingleThreadExecutor` - just a single thread with a backing LIFO queue
   - `newScheduledThreadPool` - supports delayed task execution
-- Executor lifecycle   
+- Executor lifecycle
+  - 3 states : `running`, `shutting down`, and `terminated`  
+  - `ExecutorService` provides methods for lifecycle management
+  - `shutdown()` method accepts no new tasks, prev are allowed to continue
+  - `shutdownNow()` attempts to cancel outstanding tasks and does not start any tasks that are queued but not begun
+  - post shutdown tasks are handled by `rejectedExecutionHandler`
+  - use `while (executorService.awaitTermination()) {...}` to wait in a blocking fashion for tasks to finish post shutdown is requested. `isShutdown()` returns true as soon as shutdown is requested
+- Delayed & Periodic Tasks
+  - prefer ScheduledThreadPoolExecutor over Timer and TimerTask
+  - can implement own scheduling service by wrapping around `DelayQueue`
+- 
