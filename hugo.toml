@@ -10,11 +10,13 @@ title = 'Aman Kumar'
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
+      [markup.goldmark.extensions.extras.mark]
+        enable = true
       [markup.goldmark.extensions.passthrough]
         enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['$$', '$$'], ['\\[', '\\]']]
-          inline = [['$', '$'], ['\\(', '\\)']]
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$', '$$'], ['\\[', '\\]']]
+        inline = [['$', '$'], ['\\(', '\\)']]
 
 [menu]
   [[menu.main]]
