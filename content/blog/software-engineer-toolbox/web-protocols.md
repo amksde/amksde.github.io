@@ -90,4 +90,18 @@ Follow a request from the browser or client to a service and back.
 - why proxying with WS is hard
 - ping pong in websockets
 - server sent events vs ws
-- 
+
+## HTTP/2
+- multiplexing over single connections
+- header and data compression
+- protocol negotiation during tcp
+- tcp head of line blocking
+- high cpu usage
+
+## HTTP/3
+- QUIC
+- congestion control at http3
+- connection migration using connection id
+- why not http2 over quic - header compression algo risk. Check out CRIME security vulnerability
+- CPU usage in QUIC
+- IP Fragmentation in Http3
