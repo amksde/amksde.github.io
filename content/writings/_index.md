@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Writings"
 ---
    
 My thoughts and writings.
