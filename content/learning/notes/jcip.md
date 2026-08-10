@@ -106,5 +106,10 @@ date: "2006-10-21"
   - use `while (executorService.awaitTermination()) {...}` to wait in a blocking fashion for tasks to finish post shutdown is requested. `isShutdown()` returns true as soon as shutdown is requested
 - Delayed & Periodic Tasks
   - prefer ScheduledThreadPoolExecutor over Timer and TimerTask
+  - TimerTask if it throws an exception, cancels the overall timer itself, new tasks can't be executed
   - can implement own scheduling service by wrapping around `DelayQueue`
+- `Future` represents the lifecycle of a task
+- `Future.get()` throws ExecutionException and CancellationException
+- Submitting a runnable or callable to an executor constitutes safe publication from submitting thread to executing thread. Same for setting result in Future object.
+- The real performance payoff of dividing a program’s workload into tasks comes when there are a large number of independent, homogeneous tasks that can be processed concurrently.
 - 
