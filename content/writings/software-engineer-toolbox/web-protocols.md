@@ -105,3 +105,9 @@ Follow a request from the browser or client to a service and back.
 - why not http2 over quic - header compression algo risk. Check out CRIME security vulnerability
 - CPU usage in QUIC
 - IP Fragmentation in Http3
+
+## gRPC
+- Unary RPC, server streaming rpc, client streaming rpc, bidirectional streaming rpc
+- cancellable requests (HTTP/2)
+- proxies are difficult in grpc
+- spotify protocol
