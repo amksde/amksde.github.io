@@ -111,3 +111,28 @@ Follow a request from the browser or client to a service and back.
 - cancellable requests (HTTP/2)
 - proxies are difficult in grpc
 - spotify protocol
+
+## WebRTC
+- NAT, NAT Translations Method
+- STUN, STUN servers, STUN request
+- TURN
+- ICE - Interactive Connectivity Establishment
+- SDP (Session Description Protocol), Discord + SDP
+- Signalling the SDP
+- html5rocks.com/en/tutorials/webrtc/basics/
+- public stun servers ( google has some, stun.stunprotocol.org:3478)
+
+## HTTPS Over TCP
+### With TLS 1.2
+  - key exchange
+### With TLS 1.3
+  - 1 less round trip than 1.2
+### With TLS1.3 0RTT
+  - 
+## HTTPS Over QUIC
+ - the 3 way handshake and the TLS handshake happen together
+ - with 0RTT - send /GET with the handshake, and receive the first response during the handshake itself
+ - Cloudflare QUIC 0-RTT
+## HTTPS Over TFO with TLS 1.3
+- TFO is TCP Fast Open
+- TFO is not really secure
