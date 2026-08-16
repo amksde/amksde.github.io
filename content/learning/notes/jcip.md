@@ -112,4 +112,23 @@ date: "2006-10-21"
 - `Future.get()` throws ExecutionException and CancellationException
 - Submitting a runnable or callable to an executor constitutes safe publication from submitting thread to executing thread. Same for setting result in Future object.
 - The real performance payoff of dividing a program’s workload into tasks comes when there are a large number of independent, homogeneous tasks that can be processed concurrently.
+- `CompletionService` = `Executor` + `BlockingQueue`. Submit callable tasks and query upon it using `poll` and `take` methods.
+- `ExecutorCompletionService` implements `CompletionService`
+
+# ==Chapter 7 : Cancellation & Shutdown==
+
+- Dealing well with failure, shutdown, and cancellation is one of the characteristics that distinguishes a well-behaved application from one that merely works.
+- Cancellable activity : external code can drive activity to completion before natural completion. May be because of user requested cancellation, time limited activities, application events, external failures / errors, and application shutdown
+- Interruption is the best way to implement cancellation policies since most concurrent APIs check for InterruptedException. They might not check for other external flags. There is nothing in the API or language specification that ties interruption to any specific cancellation semantics, but in practice, using interruption for anything but cancellation is fragile and difficult to sustain in larger applications.
+- The JVM makes no guarantees on how quickly a blocking method will detect interruption, but in practice this happens reasonably quickly.
+- Calling interrupt does not necessarily stop the target thread from doing what it is doing; it merely delivers the message that interruption has been requested. If a thread is interrupted when it is NOT blocked, it may be upto the client code itself to poll its status and do something with it. Try not to swallow it.
+- Interruption is usually the most sensible way to implement cancellation.
+- Task : Cancellation Policy <-> Threads : InterruptionPolicy
+- Because each thread has its own interruption policy, you should not interrupt a thread unless you know what interruption means to that thread. A thread should only be interrupted by its owner.
+- Only code that implements a thread’s interruption policy may swallow an interruption request. General-purpose task and library code should never swallow interruption requests.
+- `boolean cancel(boolean mayInterruptIfRunning)` in `Future` : pass true if task can handle interruption, otherwise not
+- The task execution threads created by the standard Executor implementations implement an interruption policy that lets tasks be cancelled using interruption, so it is safe to set `mayInterruptIfRunning` when cancelling tasks through their Futures when they are running in a standard Executor. You should not interrupt a pool thread directly when attempting to cancel a task, because you won’t know what task is running when the interrupt request is delivered—do this only through the task’s Future.
+- When Future.get throws InterruptedException or TimeoutException and you know that the result is no longer needed by the program, cancel the task with Future.cancel.
+- If a thread is blocked performing synchronous socket I/O or waiting to acquire an intrinsic lock, interruption has no effect other than setting the thread’s interrupted status. We have to explicitly convince them.
 - 
+
