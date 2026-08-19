@@ -20,3 +20,9 @@ title: "Backend Engineering"
 
 - Compare synchronous, asynchronous, reactive, actor, and coroutine models by the workload and operational complexity—not fashion.
 - Understand when native compilation, a VM, garbage collection, or manual/ownership-based memory management affects startup, latency, throughput, and deployment.
+
+# Backend Execution Patterns
+- Process Vs Threads
+- Multi-process model of NGINX/Postgres, Redis Backup Routine (COW), race conditions?
+- Multi thread - race conditions
+- 
