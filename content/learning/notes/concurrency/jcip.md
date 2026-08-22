@@ -1,6 +1,7 @@
 ---
 title: "Java Concurrency In Practice - Notes"
-date: "2006-10-21"
+date: "2026-08-21"
+lastmod:  "2026-08-22"
 ---
 # Thread Safety 
 

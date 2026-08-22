@@ -1,6 +1,7 @@
 ---
 title: "Software Engineer's Toolbox"
 layout: "toolbox-index"
+date: "2026-08-22"
 ---
 
 ## Core Engineering

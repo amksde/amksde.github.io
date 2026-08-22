@@ -7,6 +7,10 @@ title: "Home"
 
 \> I take interest in most stuff around math, music, science, and technology, even though I might not understand it :_)
 
+> हम वो हैं जो किस़्मत के चाटों के शोर पर नाचते हैं,
+> जितनी जोर का चांटा हम उतनी जोर से नाचते हैं
+>
+> ~ राहगीर 
 
 Contact me:-
 
