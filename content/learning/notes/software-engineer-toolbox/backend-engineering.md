@@ -25,4 +25,12 @@ title: "Backend Engineering"
 - Process Vs Threads
 - Multi-process model of NGINX/Postgres, Redis Backup Routine (COW), race conditions?
 - Multi thread - race conditions
-- 
+- Always specify address + port. By default port is listened to on all interfaces.
+- FileDescriptor for connections
+- Connection vs Socket
+- Network Interface Controller
+- How Kernel Accepts TCP connections
+- io_uring for accept queue
+- Recieve and Send Buffers
+- SYN Flood Attack
+- Nagle's Algorithm
