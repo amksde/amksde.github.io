@@ -40,8 +40,8 @@ title = 'Aman Kumar'
     url = "/dotfiles/"
     weight = 5
   [[menu.main]]
-    name = "Playlist"
-    url = "/playlist/"
+    name = "Music"
+    url = "/music/"
     weight = 6
   [[menu.main]]
     name = "Projects"

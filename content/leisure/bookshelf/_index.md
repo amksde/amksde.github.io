@@ -3,10 +3,13 @@ title: "Bookshelf"
 draft: false
 date : '2026-07-11T00:00:00+05:30'
 lastmod : '2026-07-18T00:00:00+05:30'
+# Reviews are deliberately linked from the relevant book entry rather than
+# automatically listed beneath the bookshelf.
+hideChildren: true
 ---
 
 ### Science & Technology
-1. [[Blackholes] [Brian Cox]](https://www.amazon.in/Black-Holes-Key-Understanding-Universe/dp/0008350752)
+1. [[Blackholes] [Brian Cox]](https://www.amazon.in/Black-Holes-Key-Understanding-Universe/dp/0008350752) [[Review]](blackholes/)
 2. [[Cosmos] [Carl Sagan]](https://www.amazon.in/COSMOS-Carl-Sagan/dp/0349107033)
 3. [[The Biggest Ideas In The Universe - Space, Time, And Motion] [Sean Carrol]](https://amzn.in/d/0ja3KdW5)
 4. [[The Biggest Ideas In The Universe - Quanta & Fields] [Sean Carrol]](https://amzn.in/d/0h6uHmJ1)
@@ -18,16 +21,16 @@ lastmod : '2026-07-18T00:00:00+05:30'
 4. [[मौत कुछ सोच के तो आएगी] [डॉ कुँअर बेचैन]](https://amzn.in/d/01wNAGNo)
 5. [[रात पश्मीने की] [गुलज़ार]](https://amzn.in/d/0aNyj9uq)
 6. [[रश्मिरथी] [रामधारी सिंह दिनकर]](https://amzn.in/d/08tOVzH0)
-7. [[सदाबहार गीतकार] [ॉ कुँअर बेचैन]](https://amzn.in/d/01FIaBtD)
+7. [[सदाबहार गीतकार] [डॉ कुँअर बेचैन]](https://amzn.in/d/01FIaBtD)
 8. [[तरकश] [जावेद अख़्तर]](https://amzn.in/d/04G4wwpB)
 9. [[मेरी इक्यावन कविताएँ] [अटल बिहारी वाजपेयी]]()
 10. [[नाराज़] [रहत इन्दोरी]]()
 11. [[पाजी नज़्मे] [गुलज़ार]]()
 
 ### Hindi
-1. [[दीवार में एक खिड़की रहती थी] [विनोद कुमार शुक्ल] [Completed]](https://www.amazon.in/Deewar-%E0%A4%B8%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%AF-%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0-%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4-%E0%A4%89%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8/dp/939282078X/)
-2. [[निठल्ले की डायरी] [हरिशंकर परसाई] [Completed]](https://www.amazon.in/Nithalle-Ki-Diary-Harishankar-Parsai/dp/8126713046)
-3. [[मृगनयनी] [वृन्दावन लाल शर्मा] [Backlog]](https://www.amazon.in/Mrignayani-Vrindavan-Lal-Verma/dp/9351867978)
+1. [[दीवार में एक खिड़की रहती थी] [विनोद कुमार शुक्ल]](https://www.amazon.in/Deewar-%E0%A4%B8%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%AF-%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0-%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4-%E0%A4%89%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8/dp/939282078X/)
+2. [[निठल्ले की डायरी] [हरिशंकर परसाई]](https://www.amazon.in/Nithalle-Ki-Diary-Harishankar-Parsai/dp/8126713046)
+3. [[मृगनयनी] [वृन्दावन लाल शर्मा]](https://www.amazon.in/Mrignayani-Vrindavan-Lal-Verma/dp/9351867978) [[रिव्यु]](mrignayani/)
 4. [[लीक] [राजेश कुमार]]()
 
 ### English
