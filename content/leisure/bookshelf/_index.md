@@ -48,7 +48,8 @@ hideChildren: true
 12. [[Raavan - Enemy Of Aryavarta] [Amish Tripathi]]()
 13. [[The Immortals Of Meluha] [Amish Tripathi]]()
 14. [[The Secret Of The Nagas] [Amish Tripathi]]()
-15. [[The Oath Of Vayuputras] [Amish Tripathi]]() 
+15. [[The Oath Of Vayuputras] [Amish Tripathi]]()
+16. [[The Honjin Murders] [Seishi Yokomizo]](https://amzn.in/d/0i0vvxxl) [[Review]](honjin-murders/)
 
 ### Generic Non Fiction
 1. [[Why I am an Atheist and Other Works] [Shaheed-e-Aazm Sardar Bhagat Singh]](https://amzn.in/d/06i8XaaC)
@@ -56,3 +57,4 @@ hideChildren: true
 3. [[Who Will Cry When You Die?] [Robin Sharma]]()
 4. [[Deep Work] [Cal Newport]]()
 5. [[The Subtle Art Of Not Giving A F*ck] [Mark Manson]]()
+6. [[Tiny Experiments] [Anne-Laure Le Cunff]](https://amzn.in/d/03aGgxsQ) [[Review]](tiney-experiments/)
