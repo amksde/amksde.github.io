@@ -190,6 +190,36 @@
         .article-meta {
             margin-bottom: 1rem;
         }
+
+        /* Images inserted with the figure and gallery shortcodes. */
+        .image-figure,
+        .image-gallery {
+            margin: 1.5rem 0;
+        }
+
+        .image-figure img,
+        .image-gallery img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image-figure figcaption,
+        .image-gallery figcaption {
+            margin-top: 0.5rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .image-gallery__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+            gap: 1rem;
+        }
+
+        .image-gallery__grid img {
+            width: 100%;
+        }
         
         @media (max-width: 600px) {
             body {
