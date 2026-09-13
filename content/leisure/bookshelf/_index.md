@@ -49,7 +49,8 @@ hideChildren: true
 13. [[The Immortals Of Meluha] [Amish Tripathi]]()
 14. [[The Secret Of The Nagas] [Amish Tripathi]]()
 15. [[The Oath Of Vayuputras] [Amish Tripathi]]()
-16. [[The Honjin Murders] [Seishi Yokomizo]](https://amzn.in/d/0i0vvxxl) [[Review]](honjin-murders/)
+16. [[The Honjin Murders] [Seishi Yokomizo]](https://amzn.in/d/0i0vvxxl) [[Spoiler Review]](honjin-murders/)
+17. [[The Decagon House Murders] [Yukito Ayatsuji]](https://amzn.in/d/0cUF9eYE) [[Spoiler Review]](decagon-house-murders/)
 
 ### Generic Non Fiction
 1. [[Why I am an Atheist and Other Works] [Shaheed-e-Aazm Sardar Bhagat Singh]](https://amzn.in/d/06i8XaaC)
