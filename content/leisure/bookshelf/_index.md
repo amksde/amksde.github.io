@@ -40,7 +40,7 @@ hideChildren: true
 4. [[Famous Five (some)] [Enid Blyton]](https://www.goodreads.com/series/42018-the-famous-five)
 5. [[Candle For A Corpse] [Ann Granger]]()
 6. [[Malgudi Schooldays] [R.K. Narayanan]]()
-7. [[Kafka On The Shore] [Haruki Murakami]]()
+7. [[Kafka On The Shore] [Haruki Murakami]](kafka-on-the-shore/)
 8. [[Three Men On A Boat] [Jerome K. Jerome]]()
 9. [[Orcs] [Stan Nicholls]]()
 10. [[Ram - Scion Of Ikshvaku] [Amish Tripathi]]()
@@ -50,7 +50,9 @@ hideChildren: true
 14. [[The Secret Of The Nagas] [Amish Tripathi]]()
 15. [[The Oath Of Vayuputras] [Amish Tripathi]]()
 16. [[The Honjin Murders] [Seishi Yokomizo]](https://amzn.in/d/0i0vvxxl) [[Spoiler Review]](honjin-murders/)
-17. [[The Decagon House Murders] [Yukito Ayatsuji]](https://amzn.in/d/0cUF9eYE) [[Spoiler Review]](decagon-house-murders/)
+17. [[The Decagon House Murders] [Yukito Ayatsuji]](decagon-house-murders/)
+18. [[Strange Houses] [Uketsu]](strange-houses/)
+19. [[The Old Man And The Sea] [Ernst Hemmingway]](the-old-man-and-the-sea/)
 
 ### Generic Non Fiction
 1. [[Why I am an Atheist and Other Works] [Shaheed-e-Aazm Sardar Bhagat Singh]](https://amzn.in/d/06i8XaaC)
