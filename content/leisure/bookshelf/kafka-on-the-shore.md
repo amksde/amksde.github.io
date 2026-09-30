@@ -42,7 +42,7 @@ The end.
 
 The plot was utter bullshit. The story is definitely a page-turner. You get questions after every chapter you read. The vocabulary and the setting of the story give it a very slow and comforting essence.
 
-Although we had many questions, none of them were answered by the end. Was Miss Saeki actually Kafka's mother? If yes, then what happened to Kafka's sister? Sakura's family history makes it unlikely that she is his sister. Maybe the curse wasn't meant to come to fruition in a literal sense. Just the fact that Kafka saw Sakura as his sister (which feels *very* weird).
+Although we had many questions, none of them were answered by the end. Was Miss Saeki actually Kafka's mother? If yes, then what happened to Kafka's sister? Sakura's family history makes it unlikely that she is his sister. Maybe the curse wasn't meant to come to fruition in a literal sense. Just the fact that Kafka saw Sakura as his sister (which feels *very* weird) mattered.
 
 The story of the "entrance" and its relation to Johnny Walker wasn't expanded at all. Was this man connected to the eel that came out of Nakata's corpse's mouth? Was Johnny Walker actually Koichi Tamura? It honestly felt a colossal waste of time. Like I said, the story was definitely a page-turner, but the story led nowhere. But then again, I am not really a big fan of inconclusive stories. I feel they represent a lack of decision-making on the part of the author. Some might call it art which is open to interpretation.
 
